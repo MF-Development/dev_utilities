@@ -1,0 +1,8 @@
+C:\Dev\KYSS Code Generator\src\StateManagement\bin\Debug\StateManagement.dll
+C:\Dev\KYSS Code Generator\src\StateManagement\bin\Debug\StateManagement.pdb
+C:\Dev\KYSS Code Generator\src\StateManagement\obj\Debug\StateManagement.dll
+C:\Dev\KYSS Code Generator\src\StateManagement\obj\Debug\StateManagement.pdb
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\bin\Debug\StateManagement.dll
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\bin\Debug\StateManagement.pdb
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\obj\Debug\StateManagement.dll
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\obj\Debug\StateManagement.pdb

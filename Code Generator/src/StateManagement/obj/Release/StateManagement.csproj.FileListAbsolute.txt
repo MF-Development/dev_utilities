@@ -1,0 +1,9 @@
+C:\Dev\KYSS Code Generator\src\StateManagement\bin\Release\StateManagement.dll
+C:\Dev\KYSS Code Generator\src\StateManagement\bin\Release\StateManagement.pdb
+C:\Dev\KYSS Code Generator\src\StateManagement\obj\Release\StateManagement.dll
+C:\Dev\KYSS Code Generator\src\StateManagement\obj\Release\StateManagement.pdb
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\bin\Release\StateManagement.dll
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\bin\Release\StateManagement.pdb
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\obj\Release\StateManagement.dll
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\obj\Release\StateManagement.pdb
+C:\SVN\Dev_Utilities\Code Generator\src\StateManagement\obj\Release\StateManagement.csprojResolveAssemblyReference.cache

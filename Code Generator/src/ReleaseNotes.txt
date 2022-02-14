@@ -1,0 +1,102 @@
+1.9.1
+Added Entity Data Provider inheritance
+Removed hard-coded string for connection name
+
+Notes: the idea is to retrieve the connection name from the base class making it a single point of change when needed.
+
+-----------------------------------------------------
+
+2.0
+
+Big changes! The purpose of the current changes is to enhance performance. In addition, future release will include the ability to dynamically generate Update Query.
+
+- Added ability to track changes made to entity (properties)
+	- Any time the value is set for a property (field), it check to see if the value has changed. If it has, it will call a method on the base class called AddChangedField() to store the changes in a hashtable called ChangedFields. Changes will only be stored in the ChangeFields hashtable if EntableEntityStateTracking is set to true.
+		
+- Added to EntityBase class
+	- Added EnableEntityStateTracking
+	- Added entity state enum (Unknown, Unchanged, Changed)
+	- Added hashtable to store the name/value of changed fields
+	- Added method to AddChangedField() and GetChangedFields() from hashtable
+	- Added BuildUpdateQuery() method to dynamically generate an update query. Updates will only occur on changed fields.
+	
+When initally loading, the EnableEntityStateTracking will be set to true. If populating from the database or a data row (GetByPrimaryKey() or DataBind(dataRow)), the EnableEntityStateTracking will be set to false so changes are not kept in the ChangedFields hashtable. Once the data has loaded, we set the EnableEntityStateTracking flag back to true and we set the EntityState to Unchanged. Any modifications outside of this will be stored in the ChangedFields hashtable unless you explicitly turn off state tracking.
+
+
+Made a lot of changes for this version including support for composite primary keys and tracking entity changes. I've also made modifications to EntityBase to support these changes and in the near future, I'll be adding dynamic query support!!! WOW!
+
+----------------------------------------------------
+
+2.0.1
+
+Added GetEntityName() method
+
+2.0.2
+
+2009.04.29 JSG
+
+=Summary=
+Added ability to use plugins for adding code into the generated base entity classes.
+
+Support is currently limited to a single enumerated plugin type, PluginTypeEnum.EntityStaticPropertyPlugin
+
+=Plugin Design=
+
+A KYSSPlugin implements the KYSSPluginInterfaces.IKYSSEntityPlugin interface:
+
+    public interface IKYSSEntityPlugin
+    {
+        List<string> GetNamespaces(string namespaceBase);
+        string GetBody(string tableName, DataTable fieldInfoTable);
+    }
+
+This defines a simple way to provide a lisst of namespaces that must be included and a string of text to be included into the Entity class body.
+
+=Plugin Configuration=
+
+There is a Plugin Root Path to a folder. Within this folder are subfolders for each PluginTypeEnum enumerated value. Plugin DLLs go inside these subfolders.
+
+
+=Plugin Loading and Execution=
+
+Currently plugins are used in two methods:
+
+1. BuildEntityDirectives: Asks plugins for any namespaces that must be added to the directive for the file
+2. BuildEntityProperties: Asks plugins for a a body of code to add to the class declaration
+
+
+2.0.3
+
+Moved plugin interfaces into the main CodeGenerator project
+Added ability to have a relative path for the plugin root folder
+
+
+----------------------------------------------------
+
+2.0.4
+
+Modified Build Telerik Grid Code
+Since we added the GridControlBase, it was necessary to refactor
+- Added PopulateGrid() method
+- Added base.ConfigureGrid() method call
+- Removed unneeded code when building ASPX and Code behind
+
+
+---------------------------------------------------
+
+2.0.5
+
+Modified to allow empty value for inherited base classes
+
+---------------------------------------------------
+
+2.0.6
+
+Added allowRebind parameter to PopulateGrid() method.
+
+---------------------------------------------------
+
+
+2.1.7
+Updated KYSS to use App.config file for connection string
+---------------------------------------------------

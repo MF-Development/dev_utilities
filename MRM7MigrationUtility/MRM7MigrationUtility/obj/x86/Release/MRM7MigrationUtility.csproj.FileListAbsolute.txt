@@ -1,0 +1,8 @@
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\bin\Release\MRM7MigrationUtility.exe.config
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\bin\Release\MRM7MigrationUtility.exe
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\bin\Release\MRM7MigrationUtility.pdb
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\obj\x86\Release\MRM7MigrationUtility.Form1.resources
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\obj\x86\Release\MRM7MigrationUtility.Properties.Resources.resources
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\obj\x86\Release\MRM7MigrationUtility.csproj.GenerateResource.Cache
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\obj\x86\Release\MRM7MigrationUtility.exe
+C:\SVN\Dev_Utilities\MRM7MigrationUtility\MRM7MigrationUtility\obj\x86\Release\MRM7MigrationUtility.pdb
