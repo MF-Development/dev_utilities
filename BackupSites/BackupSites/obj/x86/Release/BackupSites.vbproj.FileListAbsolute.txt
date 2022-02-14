@@ -1,0 +1,9 @@
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\bin\x86\Release\BackupSites.exe.config
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\bin\x86\Release\BackupSites.exe
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\bin\x86\Release\BackupSites.pdb
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\bin\x86\Release\BackupSites.xml
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\obj\x86\Release\BackupSites.Resources.resources
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\obj\x86\Release\BackupSites.vbproj.GenerateResource.Cache
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\obj\x86\Release\BackupSites.exe
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\obj\x86\Release\BackupSites.xml
+C:\SVN\Dev_Utilities\BackupSites\BackupSites\obj\x86\Release\BackupSites.pdb

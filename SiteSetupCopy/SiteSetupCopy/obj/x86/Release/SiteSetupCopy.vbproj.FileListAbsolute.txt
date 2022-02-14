@@ -1,0 +1,10 @@
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\bin\Release\SiteSetupCopy.exe.config
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\bin\Release\SiteSetupCopy.exe
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\bin\Release\SiteSetupCopy.pdb
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\bin\Release\SiteSetupCopy.xml
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.Form1.resources
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.Resources.resources
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.vbproj.GenerateResource.Cache
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.exe
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.xml
+C:\SVN\Dev_Utilities\SiteSetupCopy\SiteSetupCopy\obj\x86\Release\SiteSetupCopy.pdb
